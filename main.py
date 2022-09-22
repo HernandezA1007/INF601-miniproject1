@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 # My stock choices are: SPY, NVDA, SBUX, PYPL, WMT, EX: MSFT
 # Run > Receive PNG image > Save image file in another folder
+# terminal is not syncing with virtual environment
 
 data = yf.download("MSFT", start="2022-08-30", end="2022-09-14")
 
